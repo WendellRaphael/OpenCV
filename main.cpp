@@ -16,10 +16,25 @@ using namespace cv;
 //}
 
 
+//void main() {
+//
+//	string path = "videos/testedevideo.mp4";
+//	VideoCapture cap(path);
+//	Mat video;
+//
+//	while(true){
+//	
+//		cap.read(video);
+//
+//		imshow("video", video);
+//		waitKey(20);
+//
+//	}
+//}
+
 void main() {
 
-	string path = "videos/testedevideo.mp4";
-	VideoCapture cap(path);
+	VideoCapture cap(0);
 	Mat video;
 
 	while(true){
