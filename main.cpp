@@ -6,8 +6,8 @@
 using namespace std;
 using namespace cv;
 
+//IMAGEM
 //void main() {
-
 //	string path = "imagens/monalisa.jpg";
 //	Mat img = imread(path);
 //	imshow("Monalisa", img);
@@ -15,7 +15,7 @@ using namespace cv;
 //
 //}
 
-
+// VIDEO
 //void main() {
 //
 //	string path = "videos/testedevideo.mp4";
@@ -32,9 +32,10 @@ using namespace cv;
 //	}
 //}
 
+// WEBCAM
 void main() {
 
-	VideoCapture cap(0);
+	VideoCapture cap(0);//zero pq estou usando a webcam do notebook
 	Mat video;
 
 	while(true){
